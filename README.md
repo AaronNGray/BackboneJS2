@@ -8,7 +8,14 @@ For Docs, License, Tests, pre-packed downloads, and everything else, really, see
 
 Outstanding issues :- https://github.com/jashkenas/backbone/issues
 
-## Next steps
+## Next possible steps
   - Remove dependancy on Underscore by using ES2016 functions
   - Remove dependency on jQuery's AJAX
   - Remove dependency on jQuery's $.find, $.on, $.off
+  - possibly add (some/all) Backbone.Marionette classes - Marionette is not a stable code base !
+    - alternately add
+      - **Applcation** class
+      - **Region** class
+      - **CollectionView** class
+      - **ChildView** class
+  - add Backbone.StickIt with standardized hooks
