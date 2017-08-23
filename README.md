@@ -14,7 +14,7 @@ Outstanding issues :- https://github.com/jashkenas/backbone/issues
   - Remove dependency on jQuery's $.find, $.on, $.off
   - possibly add (some/all) Backbone.Marionette classes - Marionette is not a stable code base !
     - alternately add
-      - **Applcation** class
+      - **Application** class
       - **Region** class
       - **CollectionView** class
       - **ChildView** class
