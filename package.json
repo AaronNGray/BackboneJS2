@@ -1,0 +1,82 @@
+{
+  "name": "BackboneJS",
+  "description": "BackboneJS - BackboneJS 2.0.",
+  "url": "http://backbonejs2.org",
+  "keywords": [
+    "model",
+    "view",
+    "controller",
+    "router",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Aaron Gray",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "underscore": ">=1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.0",
+    "babel-eslint": "7.0.0",
+    "babel-plugin-transform-regenerator": "6.22.0",
+    "babel-polyfill": "6.23.0",
+    "babel-register": "6.24.0",
+    "coffee-script": "1.7.1",
+    "cypress-cli": "^0.12.0",
+    "docco": "0.7.0",
+    "easy-sauce": "^0.4.1",
+    "eslint": "^2.11.0",
+    "gulp": "3.9.1",
+    "gulp-coveralls": "0.1.4",
+    "gulp-eslint": "3.0.1",
+    "gulp-file": "0.3.0",
+    "gulp-filter": "4.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-istanbul": "1.1.1",
+    "gulp-lintspaces": "0.5.0",
+    "gulp-livereload": "3.8.1",
+    "gulp-mocha": "3.0.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "2.1.1",
+    "gulp-uglify": "2.0.0",
+    "gulp-util": "3.0.7",
+    "isparta": "4.0.0",
+    "karma": "^0.13.13",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-qunit": "^1.0.0",
+    "opn": "^5.1.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "qunitjs": "^2.0.0",
+    "rollup": "0.36.3",
+    "rollup-plugin-babel": "2.6.1",
+    "rollup-plugin-commonjs": "5.0.5",
+    "rollup-plugin-json": "2.0.2",
+    "rollup-plugin-multi-entry": "2.0.1",
+    "rollup-plugin-node-globals": "1.0.9",
+    "rollup-plugin-node-resolve": "2.0.0",
+    "run-sequence": "1.2.2",
+    "uglify-js": "^2.4.17"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "esfix": "gulp esfix",
+    "coverage": "gulp coverage",
+    "coveralls": "gulp coveralls",
+    "test": "karma start && npm run lint"
+  },
+  "main": "lib/BackboneJS.js",
+  "version": "2.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronNGray/BackboneJS2.git"
+  },
+  "files": [
+    "BackboneJS.js",
+    "BackboneJS-min.js",
+    "BackboneJS-min.map",
+    "LICENSE"
+  ]
+}
