@@ -9,7 +9,9 @@ For Docs, License, Tests, pre-packed downloads, and everything else, really, see
 Outstanding issues :- https://github.com/jashkenas/backbone/issues
 
 ## Next possible steps
-  - Remove dependancy on Underscore by using ES2016 functions
+  - Remove dependancy on Underscore
+    - by using ES2016 functions
+    - extract and refine and possibly add memorization to Underscores template function generator.
   - Remove dependency on jQuery's AJAX
   - Remove dependency on jQuery's $.find, $.on, $.off
   - possibly add (some/all) Backbone.Marionette classes - Marionette is not a stable code base !
