@@ -14,11 +14,13 @@
   "author": "Aaron Gray",
   "dependencies": {
     "jquery": "^3.2.1",
+    "jslint": "^0.12.0",
     "underscore": ">=1.8.3"
   },
   "devDependencies": {
     "babel-core": "6.24.0",
-    "babel-eslint": "7.0.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.4",
     "babel-plugin-transform-regenerator": "6.22.0",
     "babel-polyfill": "6.23.0",
     "babel-register": "6.24.0",
@@ -64,7 +66,8 @@
     "esfix": "gulp esfix",
     "coverage": "gulp coverage",
     "coveralls": "gulp coveralls",
-    "test": "karma start && npm run lint"
+    "test": "karma start",
+    "lint": "eslint lib/backboneJS2.js test/*.js"
   },
   "main": "lib/BackboneJS.js",
   "version": "2.0.0",
