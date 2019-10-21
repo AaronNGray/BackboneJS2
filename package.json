@@ -28,7 +28,7 @@
     "cypress-cli": "^0.12.0",
     "docco": "0.7.0",
     "easy-sauce": "^0.4.1",
-    "eslint": "^2.11.0",
+    "eslint": "^6.5.1",
     "gulp": "3.9.1",
     "gulp-coveralls": "0.1.4",
     "gulp-eslint": "3.0.1",
